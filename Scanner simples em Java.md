@@ -1,6 +1,3 @@
-# Scanner simples em Java
-
-![ezgif-1fc3fc54cbf9d.gif](Scanner%20simples%20em%20Java%20192b8871e1d980c899b0fbba85d35daa/ezgif-1fc3fc54cbf9d.gif)
 
 # Scanner simples em Java
 
