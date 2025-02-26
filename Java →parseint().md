@@ -16,18 +16,13 @@ public class ExemploParseInt {
         System.out.println("O número é: " + numero);
     }
 }
-```
 
-Observações:
-1. Se a string contiver caracteres não numéricos (exceto um sinal de + ou - no início), ocorrerá uma exceção NumberFormatException:
+Exemplos:
 
 ```java
 int numero = Integer.parseInt("abc"); // Isso causará um erro!
 ```
 
-1. 
-
-Você pode usar um segundo argumento para converter de outra base numérica:
 
 ```java
 int numeroBinario = Integer.parseInt("1010", 2); // Converte "1010" de binário para decimal (resultado: 10)
@@ -45,4 +40,3 @@ public class aula {
 
     }
 }
-```
