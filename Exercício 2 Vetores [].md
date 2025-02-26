@@ -1,6 +1,6 @@
 # Exercício 2
 
-**3-Crie um vetor de Strings com 3 nomes informados pelo usuário:**
+**-Crie um vetor de Strings com 3 nomes informados pelo usuário:**
 
 ```java
 import java.util.Scanner;
