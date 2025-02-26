@@ -8,43 +8,6 @@
 // 1º Forma:
 
 
-
-
-import java.util.Scanner;
-
-public class geral {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        double VendasVendedor, VendasEmpresa;
-        System.out.println("Informe as vendas da empresa: ");
-        VendasEmpresa = sc.nextDouble();
-        if (VendasEmpresa < 200_000) {
-            System.out.println("Sem Bônus.\nA empresa não obteve vendas o suficiente");
-        } else {
-            System.out.println("Informe as vendas do vendedor: ");
-            VendasVendedor = sc.nextDouble();
-            if (VendasVendedor < 15_000) {
-                System.out.println("Sem Bônus.\nO vendedor não bateu a meta.");
-            } else {
-                if (VendasVendedor < 30000) {
-                    System.out.printf("O vendedor recebe R$%.2f", VendasVendedor * 10 / 100);
-                } else {
-                    System.out.printf("O vendedor recebe R$%.2f", VendasVendedor * 20 / 100);
-                }
-            }
-
-        }
-    }
-}
-
-//---------------------------------------------------------------------------------
-
-
-// 2º Forma: 
-
-
-
-
 import java.util.Scanner;
 
 public class geral{
@@ -92,8 +55,7 @@ public class geral{
 //---------------------------------------------------------------------------------
 
 
-// 3º Forma:
-
+// 2º Forma: 
 
 
 
