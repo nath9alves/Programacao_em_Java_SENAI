@@ -1,4 +1,4 @@
-# Exercício 3
+# Exercício 2
 
 **3-Crie um vetor de Strings com 3 nomes informados pelo usuário:**
 
