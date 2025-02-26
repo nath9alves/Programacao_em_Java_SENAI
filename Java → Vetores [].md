@@ -46,7 +46,3 @@ for (int i = 0; i < numeros.length; i++) {
     System.out.println(numeros[i]); // Exibe todos os valores
 }
 ```
-
-[Exercício 3](Java%20%E2%86%92%20Vetores%20%5B%5D%20199b8871e1d980e7878ffa4dc4c89d0f/Exerci%CC%81cio%203%20199b8871e1d9802cb44be8f67bb6c36f.md)
-
-[Exercício 1](Java%20%E2%86%92%20Vetores%20%5B%5D%20199b8871e1d980e7878ffa4dc4c89d0f/Exerci%CC%81cio%201%20199b8871e1d9804599feef45f9a2948f.md)
