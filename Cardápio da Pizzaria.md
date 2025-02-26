@@ -1,7 +1,7 @@
 // Você é dono de uma pizzaria e gostaria de registrar 5 pizzas em um vetor que já contém 5 sabores, totalizando 10 sabores.
-Cada sabor deve ter um preço atrelado a ele (double).  Crie uma sequência aonde os 5 próximos sabores e valores devem
-ser cadastrados utilizando um for.  Ao final, printe todo os 10 sabores e preços das pizzas e o valor total a ser pago,
-informe o valor das parcelas caso parcele em 3x e o valor de pagamento no pix (5% de desconto).
+//Cada sabor deve ter um preço atrelado a ele (double).  Crie uma sequência aonde os 5 próximos sabores e valores devem
+//ser cadastrados utilizando um for.  Ao final, printe todo os 10 sabores e preços das pizzas e o valor total a ser pago,
+//informe o valor das parcelas caso parcele em 3x e o valor de pagamento no pix (5% de desconto).
 
 
 import java.util.Arrays;
