@@ -39,7 +39,7 @@ public class whileclass {
         try {
             // Loop para adicionar os três pontos com delay
             for (int i = 0; i < 3; i++) {
-                Thread.sleep(1000); // Pausa de 1000 milissegundos (0.5 segundos)
+                Thread.sleep(1000); // Pausa de 1000 milissegundos 
                 System.out.print(".");
             }
         } catch (InterruptedException e) {
