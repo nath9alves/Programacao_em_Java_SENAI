@@ -20,7 +20,7 @@ public class whileclass {
 }
 ```
 
-1. **Utilizando o while, escreva 'Bom dia' 15 vezes**
+2. **Utilizando o while, escreva 'Bom dia' 15 vezes**
 
 ```java
 public class whileclass {
@@ -51,7 +51,7 @@ public class whileclass {
 }
 ```
 
-1. **Faça um programa utilizando while que some dois números 
+3. **Faça um programa utilizando while que some dois números 
 para o usuário e entregue o resultado da soma logo em 
 seguida, repetindo infinitamente.**
 
