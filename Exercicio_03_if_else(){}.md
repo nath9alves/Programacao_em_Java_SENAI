@@ -1,12 +1,14 @@
-# Exercício 3
-
 //3. Crie um programa que decida se um vendedor irá receber um bônus. Para que o vendedor receba o bônus, é necessário
 // que tanto ele como a sua empresa tenham batido suas respectivas metas e, caso ele consiga dobrar a meta, ele recebe
 // 20% de bônus ao invés dos 10% padrão.
 // --> A meta de vendas da empresa é de R$ 200.000,00, e a meta de vendas do funcionário.
 // é de R$ 15.000,00.
 
+
 // 1º Forma:
+
+
+
 
 import java.util.Scanner;
 
@@ -37,8 +39,11 @@ public class geral {
 
 //---------------------------------------------------------------------------------
 
-****
+
 // 2º Forma: 
+
+
+
 
 import java.util.Scanner;
 
@@ -83,9 +88,14 @@ public class geral{
     }
 }
 
+
 //---------------------------------------------------------------------------------
 
+
 // 3º Forma:
+
+
+
 
 import java.util.Scanner;
 
