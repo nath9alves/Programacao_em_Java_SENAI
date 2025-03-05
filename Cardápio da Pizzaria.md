@@ -4,6 +4,8 @@
 //informe o valor das parcelas caso parcele em 3x e o valor de pagamento no pix (5% de desconto).
 
 
+```java
+
 import java.util.Arrays;
 import java.util.Scanner;
 import java.util.ArrayList;
