@@ -3,7 +3,10 @@
    // 2. **Após, repita o print, agora utilizando o for.** 
   //  3. **Imprima as informações de todos os usuários da lista, exceto o terceiro, utilizando o for**.
 
-  
+
+
+  ```java
+
 import java.util.Arrays;
 import java.util.ArrayList;
 import java.util.Scanner;
