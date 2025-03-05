@@ -6,6 +6,7 @@
 
 ```java
 
+
 import java.util.Arrays;
 import java.util.Scanner;
 import java.util.ArrayList;
@@ -15,7 +16,7 @@ public class aula {
         Scanner sc = new Scanner(System.in);
 
         // Sabores e preços já existentes
-        String[] sabores_existentes = {"Calabresa", "Queijo", "Atum", "Costela", "Brócolis"};
+        String[] sabores_existentes = {"Calabresa", "Queijo", "Atum", "Costela", "Brócoliss"};
         double[] precos_existentes = {35.0, 30.0, 40.0, 45.0, 38.0};
 
         // Lista para armazenar sabores e preços
@@ -65,6 +66,39 @@ public class aula {
         double desconto = valor_total * 0.05;
         double valor_com_desconto = valor_total - desconto;
         System.out.printf("Valor de pagamento no Débito, Pix ou Dinheiro (5%% de desconto): R$ %.2f\n", valor_com_desconto);
-        
+
+        while(true){
+
+            System.out.println("\nEscolha a forma de pagamento:");
+            System.out.println("1 - À vista (Dinheiro/Pix com 5% de desconto)");
+            System.out.println("2 - Parcelado em 3x");
+            System.out.println("3 - Sair");
+            System.out.print("Opção: ");
+
+            int escolha = sc.nextInt();
+            sc.nextLine();
+
+            switch (escolha){
+                case 1:
+                    System.out.println("Pagamento a vista realizado! Obrigada!! :)");
+                    System.out.println("Total pago: R$ "+valor_com_desconto);
+                    return;
+
+                case 2:
+                    System.out.println("Pagamento parcelado em 3x de R$: " + String.format("%.2f", valor_parcela) + " realizado!");
+                    System.out.println("Volte Sempre!");
+                    return;
+
+                case 3:
+                    System.out.println("Obrigada pela visita! Volte sempre!! :)");
+                    return;
+
+                case 4:
+                default:
+                    System.out.println("Opção inválida! Tente novamente!");
+            }
+
+        }
+
     }
 }
