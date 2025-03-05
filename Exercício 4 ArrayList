@@ -1,0 +1,34 @@
+```java
+
+// Crie uma lista de mercado com 5 produtos e 5 preços informados pelo usuário. Ao final, imprima uma mensagem para cada produto, informando quanto eles custam.
+
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class aula {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        ArrayList<String> produtos = new ArrayList<>();
+        ArrayList<Double> precos = new ArrayList<>();
+
+        System.out.println("Informe 5 produtos: ");
+        for (int i = 0; i < 5; i++) {
+            String produto_novo = sc.nextLine();
+            produtos.add(produto_novo);
+        }
+
+        System.out.println("Informe os 5 preços: ");
+        for (int i = 0; i < 5; i++) {  // Corrigido aqui
+            double preco_novo = sc.nextDouble();
+            precos.add(preco_novo);
+        }
+
+        System.out.println("Produtos e preços:\n");
+        for (int i = 0; i < 5; i++) {
+            System.out.println(produtos.get(i) + " - R$ " + precos.get(i));
+        }
+
+    }
+}
